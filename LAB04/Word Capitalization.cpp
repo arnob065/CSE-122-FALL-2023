@@ -1,9 +1,8 @@
 #include<iostream>
-#include<string>
 using namespace std;
 int main()
 {
-   string s;
+   char s[100];
    cin>>s;
    s[0]=towupper(s[0]);
    cout<<s;
